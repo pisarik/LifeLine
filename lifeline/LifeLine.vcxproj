@@ -143,6 +143,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="photoTask.cpp" />
+    <ClCompile Include="randomTimeTask.cpp" />
+    <ClCompile Include="taskManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="photoTask.h" />
+    <ClInclude Include="randomTimeTask.h" />
+    <ClInclude Include="task.h" />
+    <ClInclude Include="taskManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
